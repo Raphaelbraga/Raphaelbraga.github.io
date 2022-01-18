@@ -3,21 +3,12 @@
 /* Document
    ========================================================================== */
 
- html {
-    line-height: 1.15; /* 1 */
-    -webkit-text-size-adjust: 100%; /* 2 */
-  }
   
   body {
     margin: 0;
   }
-  
-  main {
-    display: block;
-  }
-  
-  h1 {
-    font-size: 2em;
+    
+  h1,h2,h3 {
     margin: 0;
   }
   

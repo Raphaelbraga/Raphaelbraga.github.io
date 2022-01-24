@@ -1,0 +1,24 @@
+.banner{
+    background-image: url(../../assets/img/foto.portfolio.jpg);
+    background-size:500px;
+    background-color: #8ea4a5; /**/
+    background-repeat: no-repeat;
+    background-position-x: right 20px;
+    background-position-y: top 10px;
+    height: 405px; 
+    border-bottom: solid 10px #000;
+    padding-top: 116px;
+    padding-left: 91px;
+}
+
+.banner .wrapper {
+    display:flex;
+    flex-direction: column;
+    width: 630px;
+}
+
+.banner .navigation {
+    display: flex;
+    justify-content:space-around; 
+    margin-top: 38px;
+}

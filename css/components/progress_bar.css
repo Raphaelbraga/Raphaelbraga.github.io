@@ -1,0 +1,9 @@
+.progress_bar {
+    -webkit-appearance: none;
+    border:solid 5px black
+}
+
+.progress_bar::-moz-progress-bar {  
+    background: #A0522D;
+}
+

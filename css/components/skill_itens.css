@@ -1,0 +1,13 @@
+.skill_itens {
+    width: 430px;
+    height: 90px;
+    margin-bottom: 40px;
+}
+
+.skill_itens label {
+    position:absolute ;
+    font-style:"Roboto Mono" ;
+    font-size: 25px;
+    color: #fff;
+}
+

@@ -1,0 +1,19 @@
+.skills {
+    display: flex;
+    background-color: #BAA495;
+    background-size: 500px;
+    border-bottom: solid 10px #A0522D;
+    box-sizing: border-box; 
+    padding-bottom: 60px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.skills .wrapper {
+    display:flex;
+    flex-flow: wrap;
+    justify-content: space-between;
+    width:960px ;
+}
+
+

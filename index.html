@@ -8,31 +8,87 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;500&family=Roboto+Mono&display=swap" rel="stylesheet">  
-    
-    <link rel="stylesheet" href="./css/estilo.css">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;500&family=Roboto+Mono:wght@400;500&display=swap" rel="stylesheet"> 
+
     <link rel="stylesheet" href="./css/normelise.css">  
-    <link rel="stylesheet" href="./css/components/title.css">        
-    <link rel="stylesheet" href="./css/components/title.css">        
-    <link rel="stylesheet" href="./css/components/subtitle.css">        
+    <link rel="stylesheet" href="./css/components/header.css">   
+    <link rel="stylesheet" href="./css/components/title.css">              
+    <link rel="stylesheet" href="./css/components/action.css">        
+    <link rel="stylesheet" href="./css/components/button.css">        
+    <link rel="stylesheet" href="./css/components/banner.css">        
     <link rel="stylesheet" href="./css/components/box.css">        
+    <link rel="stylesheet" href="./css/components/subtitle.css">  
+    <link rel="stylesheet" href="./css/components/skills.css">  
+    <link rel="stylesheet" href="./css/components/skill_itens.css">  
+    <link rel="stylesheet" href="./css/components/progress_bar.css">  
+
+
+          
 </head>
 <body>
-    <header>
-        <h1>RBraga </h1>
+    <header class="header">
+        <h1 class="title">RBraga </h1>
         
         <nav>
-             <a href="" lang="en">skills</a> 
-             <a href="">projeto</a> 
-             <a href="">sobre</a> 
-             <a href="">contato</a> 
-             <a class="button" href="" lang="en" > Download </a>     
+             <a class="action" href="skills" lang="en">Skills</a> 
+             <a class="action" href="">Projetos</a> 
+             <a class="action" href="">Sobre</a> 
+             <a class="action" href="">Contatos</a> 
+             <button class="button" href="" lang="en" > Download Cv</button>     
         </nav>
     </header>
+    
+    <section class="banner">
+        <div class="wrapper">
+            <div class="box">
+                <h2 class="title">Raphael Braga </h2>
+                <h3 class="subtitle">Front-end developer</h3>    
+            </div>
 
-    <div id="box">
-        <h2>Raphael Braga de Paula</h2>
-        <h3>Front-end developer</h3>    
-    </div>
+            <div class="navigation">
+                <button class="button" href="" lang="en" > Download Cv</button>     
+                <button class="button" href="" lang="en" > Contatos </button>  
+            </div>
+        </div>    
+    </section>
+    <section class="skills">
+        <h2 class="title -second" lang="eng">Skills</h2>
+
+        <div class="wrapper">
+            <div class="skill_itens">
+                <img src="../icons/ico_html5.png" lang="eng" alt=""> 
+                <label  for="progress_bar">HTML</label>    
+                <progress class="progress_bar" max="100" value="30"> 70% </progress>    
+            </div>
+
+            <div class="skill_itens">
+                <img src="../icons/ico_css3.png" lang="eng" alt=""> 
+                <label  for="progress_bar">CSS</label>    
+                <progress class="progress_bar" max="100" value="30"> 70% </progress>    
+            </div>
+
+            <div class="skill_itens">
+                <img src="../icons/ico_git.png" lang="eng" alt=""> 
+                <label  for="progress_bar">GIT</label>    
+                <progress class="progress_bar" max="100" value="30"> 70% </progress>    
+            </div>
+
+            <div class="skill_itens">
+                <img src="../icons/ico_github.png" lang="eng" alt=""> 
+                <label  for="progress_bar">Github</label>    
+                <progress class="progress_bar" max="100" value="30"> 70% </progress>    
+            </div>
+            <div class="skill_itens">
+                <img src="../icons/ico_tdd.png" lang="eng" alt=""> 
+                <label  for="progress_bar">TDD</label>    
+                <progress class="progress_bar" max="100" value="0"> 70% </progress>    
+            </div>
+            <div class="skill_itens">
+                <img src="../icons/icon_python.png" lang="eng" alt=""> 
+                <label  for="progress_bar">PHYTON</label>    
+                <progress class="progress_bar" max="100" value="0"> 70% </progress>    
+            </div>
+        </div>
+    </section>       
 </body>
 </html>

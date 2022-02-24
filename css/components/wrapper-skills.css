@@ -1,0 +1,7 @@
+.wrapper-skills {
+    display:flex;
+    flex-wrap: wrap;
+    align-self: center;
+    justify-content: space-between;
+    max-width:960px ;
+}

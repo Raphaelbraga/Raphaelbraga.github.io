@@ -11,18 +11,21 @@
     <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;500&family=Roboto+Mono:wght@400;500&display=swap" rel="stylesheet"> 
 
     <link rel="stylesheet" href="./css/normelise.css">  
+    <link rel="stylesheet" href="./css/components/mobile-stiled.css">  
     <link rel="stylesheet" href="./css/components/header.css">   
     <link rel="stylesheet" href="./css/components/title.css">              
-    <link rel="stylesheet" href="./css/components/action.css">        
-    <link rel="stylesheet" href="./css/components/button.css">        
-    <link rel="stylesheet" href="./css/components/banner.css">        
-    <link rel="stylesheet" href="./css/components/box.css">        
+    <link rel="stylesheet" href="./css/components/main-action.css">        
+    <link rel="stylesheet" href="./css/components/main-button.css">        
+    <link rel="stylesheet" href="./css/components/main-banner.css">        
+    <link rel="stylesheet" href="./css/components/main-box.css">        
     <link rel="stylesheet" href="./css/components/subtitle.css">  
-    <link rel="stylesheet" href="./css/components/skills.css">  
+    <link rel="stylesheet" href="./css/components/sessao.css">        
+    <link rel="stylesheet" href="./css/components/wrapper-skills.css">        
+    <link rel="stylesheet" href="./css/components/wrapper-cards.css">    
+    <link rel="stylesheet" href="./css/components/card-project.css">    
     <link rel="stylesheet" href="./css/components/skill_itens.css">  
     <link rel="stylesheet" href="./css/components/progress_bar.css">  
-
-
+    <link rel="stylesheet" href="./css/components/main-descricao.css">  
           
 </head>
 <body>
@@ -30,65 +33,102 @@
         <h1 class="title">RBraga </h1>
         
         <nav>
-             <a class="action" href="skills" lang="en">Skills</a> 
-             <a class="action" href="">Projetos</a> 
-             <a class="action" href="">Sobre</a> 
-             <a class="action" href="">Contatos</a> 
-             <button class="button" href="" lang="en" > Download Cv</button>     
+             <a class="main-action" href="#skill" lang="en">Skills</a> 
+             <a class="main-action" href="#projetos">Projetos</a> 
+             <a class="main-action" href="#sobre">Sobre</a> 
+             <a class="main-action" href="#">Contatos</a> 
+             <button class="main-button" href="" lang="en" > Download Cv</button>     
         </nav>
     </header>
     
-    <section class="banner">
+    <section class="main-banner">
         <div class="wrapper">
-            <div class="box">
+            <div class="main-box">
                 <h2 class="title">Raphael Braga </h2>
-                <h3 class="subtitle">Front-end developer</h3>    
+                <h3 class="subtitle">Front-end Developer</h3>    
             </div>
 
             <div class="navigation">
-                <button class="button" href="" lang="en" > Download Cv</button>     
-                <button class="button" href="" lang="en" > Contatos </button>  
+                <button class="main-button" href="" lang="en" > Download Cv</button>     
+                <button class="main-button" href="" lang="en" > Contatos </button>  
             </div>
         </div>    
     </section>
-    <section class="skills">
+    <section class="sessao" id="skill">
         <h2 class="title -second" lang="eng">Skills</h2>
 
-        <div class="wrapper">
+        <div class="wrapper-skills">
             <div class="skill_itens">
-                <img src="./assets/img/ico_html5.png" lang="eng" alt=""> 
+                <img src="../portfolio/assets/img/ico_html5.png" lang="eng" alt=""> 
                 <label  for="progress_bar">HTML</label>    
-                <progress class="progress_bar" max="100" value="30"> 70% </progress>    
+                <progress class="progress_bar" max="100" value="30"></progress>    
             </div>
 
             <div class="skill_itens">
-                <img src="./assets/img/ico_css3.png" lang="eng" alt=""> 
+                <img src="../portfolio/assets/img/ico_css3.png" lang="eng" alt=""> 
                 <label  for="progress_bar">CSS</label>    
-                <progress class="progress_bar" max="100" value="30"> 70% </progress>    
+                <progress class="progress_bar" max="100" value="30"></progress>    
             </div>
 
             <div class="skill_itens">
-                <img src="./assets/img/ico_git.png" lang="eng" alt=""> 
+                <img src="../portfolio/assets/img/ico_git.png" lang="eng" alt=""> 
                 <label  for="progress_bar">GIT</label>    
-                <progress class="progress_bar" max="100" value="30"> 70% </progress>    
+                <progress class="progress_bar" max="100" value="30"></progress>    
             </div>
 
             <div class="skill_itens">
-                <img src="./assets/img/ico_github.png" lang="eng" alt=""> 
+                <img src="../portfolio/assets/img/ico_github.png" lang="eng" alt=""> 
                 <label  for="progress_bar">Github</label>    
-                <progress class="progress_bar" max="100" value="30"> 70% </progress>    
+                <progress class="progress_bar" max="100" value="30"></progress>    
             </div>
             <div class="skill_itens">
-                <img src="./assets/img/ico_tdd.png" lang="eng" alt=""> 
+                <img src="../portfolio/assets/img/ico_tdd.png" lang="eng" alt=""> 
                 <label  for="progress_bar">TDD</label>    
-                <progress class="progress_bar" max="100" value="0"> 70% </progress>    
+                <progress class="progress_bar" max="100" value="30"></progress>    
             </div>
             <div class="skill_itens">
-                <img src="./assets/img/icon_python.png" lang="eng" alt=""> 
-                <label  for="progress_bar">PYTHON</label>    
-                <progress class="progress_bar" max="100" value="0"> 70% </progress>    
+                <img src="../portfolio/assets/img/ico_java.png" lang="eng" alt=""> 
+                <label  for="progress_bar">JAVA</label>    
+                <progress class="progress_bar" max="100" value="30"></progress>    
             </div>
         </div>
-    </section>       
+    </section>  
+    <section class="sessao -project" id="projetos">
+        <h2 class="title -second" lang="">Projetos</h2>
+
+        <div class="wrapper-cards">
+            <figure class="card-project">
+                <img src="./assets/img/ico_projetos.png" alt="">
+                <figcaption>Meu GitHub</figcaption>
+            </figure>
+            <figure class="card-project">
+                <img src="./assets/img/ico_projetos.png" alt="">
+                <figcaption>Portfolio</figcaption>
+            </figure>
+            <figure class="card-project">
+                <img src="./assets/img/ico_projetos.png" alt="">
+                <figcaption>projeto faculdade</figcaption>
+            </figure>
+            <figure class="card-project">
+                <img src="./assets/img/ico_projetos.png" alt="">
+                <figcaption>projeto faculdade 2</figcaption>
+            </figure>
+        </div>
+    </section>    
+
+    <section class="sessao -sobre" id="sobre">
+        <h class="title -second">Sobre</h>
+        <p class="main-descricao">Atualmente estudante de graduação em Análise e desenvolvimento de sistemas, 
+            focando a trajetória de estudos no desenvolvimento Front-End 
+            com HTML, CSS e React, e estendendo ao Beck-End com JAVA. 
+            Antes atuou na cadeia de distribuição de Gás Natural em áreas como: 
+            instalação, manutenção e supervisão. 
+            A graduação em Automação industrial e o TCC em IoT (internet of things), 
+            proporcionaram o primeiro contato e o consequente encantamento pela área de 
+            tecnologia. Se considera curioso e entusiasta da área, características essas
+            que contribuíram na decisão de assumir o desafio de retomar os estudos, 
+            encerrar a carreira de manutenção e se tornar um desenvolvedor Fullstack.</p>
+    </section>
+    
 </body>
-</html>
+</html> 

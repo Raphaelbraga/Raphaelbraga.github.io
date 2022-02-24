@@ -1,0 +1,16 @@
+.sessao {
+    display: flex;
+    background-color: #BAA495;
+    background-size: 500px;
+    border-bottom: solid 10px #A0522D;
+    box-sizing: border-box; 
+    padding-bottom: 60px;
+    flex-direction: column;
+}
+
+.sessao.-project{
+    background-color: #000;
+    border-bottom: solid 10px #A0522D;
+}
+
+

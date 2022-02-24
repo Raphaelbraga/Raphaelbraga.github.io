@@ -1,0 +1,69 @@
+@media screen and (max-width: 815px){
+
+    header{
+        flex-direction: column;
+        align-content: space-between;
+    }
+    nav {
+        display:flex;
+        flex-direction: column;
+        padding-bottom: 0.5rem;
+    }
+    .main-banner {
+        background-image:none;
+    }
+    .main-banner .wrapper {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .wrapper-skills {
+        display:flex;
+        flex-wrap: wrap;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .skill_itens {
+        width: 340px;
+        height: 90px;
+    }
+
+    .wrapper-cards{
+        flex-direction: column;
+    }
+
+} 
+
+@media screen and (max-width: 380px) {
+    nav {
+        display:flex;
+        flex-direction: column;
+        padding-bottom: 0.5rem;
+    }
+    .main-banner {
+        background-image: none;
+    }
+
+    .main-banner .wrapper {
+        width:70vw;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .wrapper-skills{
+        display:flex;
+        flex-direction: column;
+        align-self: center;
+    }
+    .skill_itens {
+        width: 340px;
+        height: 90px;
+    }
+
+    .skill_itens .progress_bar{
+        max-width: 240px;
+        height: 20px;
+    }
+
+}

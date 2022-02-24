@@ -1,0 +1,19 @@
+.main-action {
+    display: inline-flex;
+    align-items: center;
+    color:#FFF;
+    transition: color .5s;
+    font-size:20px ;
+    font-family: "Fira Code";
+    font-weight: 500;
+    text-decoration: none; /*retira sublinhado texto*/
+    margin-right: 30px;    
+}
+
+.main-action::before {
+    content:"";
+    background-color: #A0522D;
+    width: 10px;
+    height: 10px;
+    margin-right: 10px;
+}

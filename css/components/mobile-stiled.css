@@ -9,12 +9,13 @@
         flex-direction: column;
         padding-bottom: 0.5rem;
     }
-    .main-banner {
-        background-image:none;
-    }
     .main-banner .wrapper {
         margin-left: auto;
         margin-right: auto;
+    }
+
+    .profile-foto img {
+        display: none;
     }
     
     .wrapper-skills {
@@ -41,16 +42,21 @@
         flex-direction: column;
         padding-bottom: 0.5rem;
     }
-    .main-banner {
-        background-image: none;
+    
+    .profile-foto img {
+        display: none;
     }
 
     .main-banner .wrapper {
         width:70vw;
-        margin-left: auto;
-        margin-right: auto;
+        margin: auto;
     }
     
+    .main-box {
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+
     .wrapper-skills{
         display:flex;
         flex-direction: column;

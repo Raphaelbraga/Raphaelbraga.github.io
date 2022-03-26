@@ -51,6 +51,16 @@
         width:70vw;
         margin: auto;
     }
+    .main-banner .navigation {
+        display: flex;
+        flex-direction: column;
+        align-content: space-between;
+        margin-top: 38px; 
+    }
+     
+    .navigation .main-button{
+        margin-top: 10px;
+    }
     
     .main-box {
         margin-top: auto;
